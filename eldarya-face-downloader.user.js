@@ -1,36 +1,36 @@
 // ==UserScript==
-// @name		Eldarya Face Downloader
-// @namespace	https://gitlab.com/NatoBoram/Eldarya-Face-Downloader
-// @version		0.0.0
-// @author		Nato Boram
-// @description	Adds a button so you can download your face on Eldarya!
-// @icon		https://gitlab.com/NatoBoram/Eldarya-Face-Downloader/raw/master/assets/Erika.png
-// @supportURL	https://gitlab.com/NatoBoram/Eldarya-Face-Downloader/issues
+// @name        Eldarya Face Downloader
+// @namespace   https://gitlab.com/NatoBoram/Eldarya-Face-Downloader
+// @version     1.0.0
+// @author      Nato Boram
+// @description Adds a button so you can download your face on Eldarya!
+// @icon        https://gitlab.com/NatoBoram/Eldarya-Face-Downloader/raw/master/assets/Erika.png
+// @supportURL  https://gitlab.com/NatoBoram/Eldarya-Face-Downloader/issues
 //
 // HTTPS
-// @match		https://eldarya.com.br/*
-// @match		https://eldarya.de/*
-// @match		https://eldarya.es/*
-// @match		https://eldarya.hu/*
-// @match		https://eldarya.it/*
-// @match		https://eldarya.pl/*
-// @match		https://eldarya.ru/*
-// @match		https://eldarya.com/*
-// @match		https://eldarya.fr/*
+// @match       https://eldarya.com.br/*
+// @match       https://eldarya.de/*
+// @match       https://eldarya.es/*
+// @match       https://eldarya.hu/*
+// @match       https://eldarya.it/*
+// @match       https://eldarya.pl/*
+// @match       https://eldarya.ru/*
+// @match       https://eldarya.com/*
+// @match       https://eldarya.fr/*
 //
 // HTTPS WWW
-// @match		https://www.eldarya.com.br/*
-// @match		https://www.eldarya.de/*
-// @match		https://www.eldarya.es/*
-// @match		https://www.eldarya.hu/*
-// @match		https://www.eldarya.it/*
-// @match		https://www.eldarya.pl/*
-// @match		https://www.eldarya.ru/*
-// @match		https://www.eldarya.com/*
-// @match		https://www.eldarya.fr/*
+// @match       https://www.eldarya.com.br/*
+// @match       https://www.eldarya.de/*
+// @match       https://www.eldarya.es/*
+// @match       https://www.eldarya.hu/*
+// @match       https://www.eldarya.it/*
+// @match       https://www.eldarya.pl/*
+// @match       https://www.eldarya.ru/*
+// @match       https://www.eldarya.com/*
+// @match       https://www.eldarya.fr/*
 //
-// @run-at		document-end
-// @grant		none
+// @run-at      document-end
+// @grant       none
 // ==/UserScript==
 
 (function() {
