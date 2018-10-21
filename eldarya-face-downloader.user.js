@@ -4,7 +4,7 @@
 // @version     1.0.0
 // @author      Nato Boram
 // @description Adds a button so you can download your face on Eldarya!
-// @icon        https://gitlab.com/NatoBoram/Eldarya-Face-Downloader/raw/master/assets/Erika.png
+// @icon        https://gitlab.com/NatoBoram/Eldarya-Face-Downloader/raw/master/assets/icon.png
 // @supportURL  https://gitlab.com/NatoBoram/Eldarya-Face-Downloader/issues
 //
 // HTTPS

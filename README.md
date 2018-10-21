@@ -4,7 +4,7 @@ Adds a button to download your guardian's face on Eldarya!
 
 Here's what it looks like :
 
-![Example](https://gitlab.com/NatoBoram/Eldarya-Face-Downloader/raw/master/assets/banner.png)
+![Example](https://gitlab.com/NatoBoram/Eldarya-Face-Downloader/raw/master/assets/preview.png)
 
 ## Installation
 
