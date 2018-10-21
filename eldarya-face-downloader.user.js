@@ -43,6 +43,7 @@
 
 		// Constants
 		filename: "face.png",
+		interval: 60 * 1000, // One minute
 
 		/**
 		 * Downloads the user's face.
@@ -74,29 +75,46 @@
 			});
 		},
 
-
+		/**
+		 * Adds the carousel
+		 */
+		add_carousel: function() {
+			$(".index-carousel-slider").prepend(
+				'<div class="index-carousel-slide" id="carousel-efd">' +
+				'	<img class="index-carousel-picture" src="/static/img/newsCarousel/us/carousel-bienvenue.png" />' +
+				'	<div class="index-carousel-side">' +
+				'		<div class="index-carousel-title">Eldarya Face Downloader</div>' +
+				'		<div class="index-carousel-subtitle"></div>' +
+				'		<div class="index-carousel-description">Download your guardian\'s face!</div>' +
+				'		<div class="index-carousel-button">' +
+				'			<a class="button" onclick="eldarya_face_downloader.do();">Download</a>' +
+				'		</div>' +
+				'	</div>' +
+				'</div>'
+			);
+		},
 	};
+
+	// Carousel
+	setInterval(function() {
+
+		// Check if we're on a page where there's a carousel
+		if ($(".index-carousel").length === 1) {
+
+			// Check if the carousel entry is there
+			if ($("#carousel-efd").length === 0) {
+
+				// Add it!
+				eldarya_face_downloader.add_carousel();
+			}
+		}
+	}, eldarya_face_downloader.interval);
 
 	// Header Menu
 	$("#header-menu").prepend(
 		'<li>' +
 		'	<a onclick="eldarya_face_downloader.do();" style="color:#34386f;">Download Face</a>' +
 		'</li>'
-	);
-
-	// Carousel
-	$(".index-carousel-slider").prepend(
-		'<div class="index-carousel-slide" id="carousel-efd">' +
-		'	<img class="index-carousel-picture" src="/static/img/newsCarousel/us/carousel-bienvenue.png" />' +
-		'	<div class="index-carousel-side">' +
-		'		<div class="index-carousel-title">Eldarya Face Downloader</div>' +
-		'		<div class="index-carousel-subtitle"></div>' +
-		'		<div class="index-carousel-description">Download your guardian\'s face!</div>' +
-		'		<div class="index-carousel-button">' +
-		'			<a class="button" onclick="eldarya_face_downloader.do();">Download</a>' +
-		'		</div>' +
-		'	</div>' +
-		'</div>'
 	);
 
 })();
