@@ -96,6 +96,16 @@
 	};
 
 	// Carousel
+	eldarya_face_downloader.add_carousel();
+
+	// Header Menu
+	$("#header-menu").prepend(
+		'<li>' +
+		'	<a onclick="eldarya_face_downloader.do();" style="color:#34386f;">Download Face</a>' +
+		'</li>'
+	);
+
+	// Interval
 	setInterval(function() {
 
 		// Check if we're on a page where there's a carousel
@@ -109,12 +119,5 @@
 			}
 		}
 	}, eldarya_face_downloader.interval);
-
-	// Header Menu
-	$("#header-menu").prepend(
-		'<li>' +
-		'	<a onclick="eldarya_face_downloader.do();" style="color:#34386f;">Download Face</a>' +
-		'</li>'
-	);
 
 })();
