@@ -85,7 +85,7 @@
 		add_carousel: function() {
 			$(".index-carousel-slider").prepend(
 				'<div class="index-carousel-slide" id="carousel-efd">' +
-				'	<img class="index-carousel-picture" src="/static/img/newsCarousel/us/carousel-bienvenue.png" />' +
+				'	<img class="index-carousel-picture" src="https://gitlab.com/NatoBoram/Eldarya-Face-Downloader/raw/master/assets/carousel-face.png" />' +
 				'	<div class="index-carousel-side">' +
 				'		<div class="index-carousel-title">Eldarya Face Downloader</div>' +
 				'		<div class="index-carousel-subtitle"></div>' +
