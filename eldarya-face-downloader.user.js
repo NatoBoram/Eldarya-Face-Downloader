@@ -36,6 +36,10 @@
 (function() {
 	'use strict';
 
+	// Force HTTPS
+	if (location.protocol !== "https:")
+		location.protocol = "https:";
+
 	/**
 	 * Play the game automagically!
 	 */
