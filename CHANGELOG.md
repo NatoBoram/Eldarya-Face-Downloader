@@ -18,4 +18,14 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/) a
 
 ### Security
 
-## [1.0.0] - 2018-
+## [1.0.0] - 2018-10-21
+
+### Added
+
+* First appearance on GitLab!
+* HTTPS Support
+* Carousel entry
+
+### Removed
+
+* HTTP Support
